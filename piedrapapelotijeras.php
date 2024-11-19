@@ -34,7 +34,7 @@
     }elseif ($ElegidoOrdenador== 3){
         $ElegidoOrdenador="Piedra";
     }
-    echo "<strong>El ordenador</strong> ha elegido <u>$ElegidoOrdenador</u> y <strong>el jugador</strong> a elejido <u>$ElegidoUsuario</u>.<br><br>";
+    echo "<strong>El ordenador</strong> ha elegido <u>$ElegidoOrdenador</u> y <strong>el jugador</strong> a elegido <u>$ElegidoUsuario</u>.<br><br>";
 
     if ($ElegidoOrdenador == "Tijera" && $ElegidoUsuario =="Papel" 
     || $ElegidoOrdenador == "Papel" && $ElegidoUsuario == "Piedra" 
